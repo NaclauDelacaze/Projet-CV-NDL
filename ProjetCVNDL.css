@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    }
+  
+    /* ici c'est le style de toute la page , */
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(89, 228, 170);
+    }
+
+     /* le style donnée a ma class row  */
+    .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    background-color: #bfecdd;
+    border-radius:30px;
+    padding: 10px;
+    margin: 10px;
+    }
+  
+    /* J'ai mis dans mon header  ma photo, ma présentation et ma phrase d'accroche */
+    /* .header {     */
+    /*display: -ms-flexbox; IE10
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    /*flex-wrap: wrap;
+    background: rgb(89, 228, 170);
+    padding: 10px;
+    }
+
+    /* ici je vais positionner les divs (l'une à gauche-photo et l'autre à droite-nom) que j'ai créées dans le header pour */
+    .div1 {
+    background-color: #bfecdd;
+    color: purple;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    /* margin: 5px; */
+    /* margin-right: 5px; */
+    }
+
+    div #d30 {
+    float: initial;
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    border-radius:60px; 
+    background-image:url(ImagesCvNDL.png);
+    margin-top: 5px;
+    padding: 10px;
+    /* margin: 5px; */
+    /* padding-top: 10px;*/
+    margin-bottom: 10px;
+    /* padding-left: 5px; */ 
+    margin-right: 5px;
+    }
+
+    .div2 {
+    background-color:#bfecdd;
+    color: purple;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    /* margin: 5px; */
+    /* margin-right: 5px; */
+    }
+
+    #d65 {
+    float: initial;
+    -ms-flex: 65%; /* IE10 */
+    flex: 65%;
+    border-radius:30px; 
+    background-image:url(ImagesCvNDL.png);
+    margin-top: 5px;
+    padding: 10px;
+    /* margin: 5px; */
+    /* padding-top: 10px;*/
+    margin-bottom: 10px;
+    /* padding-left: 5px;  */
+    margin-left: 5px;
+    }
+
+    /* definition de la taille du h1 et du h2 qui ce de trouvent dans la div identifiée par d2 dans le header de cette façon */
+  
+    h1 h2{
+    font-size: 12px;
+    text-align: center;
+    /* padding-top: 5px; */
+    }
+
+  
+    /*  ici c'est ma navbar et grace au -webkit-sticky je definis mon petit effet*/
+    .navbar {
+    overflow: hidden;
+    background-color: purple;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    }
+  
+    /*  ici je defini le style des lien qui ce trouve dans ma navbar */
+    .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    }
+  
+  
+    /*  Allignement de tous les liens  vers la droite*/
+    .navbar a.right {
+    float: center;
+    }
+  
+    /* Je change de couleur du a */
+    .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+  
+    /* la c'est l'effet donné sur le lien lorsque je met ma souris dessus  */
+    .navbar a.active {
+    background-color: #6aada8;
+    color: white;
+    }
+  
+    /* le style donnée a ma classe side*/
+    .side {
+    float: initial;
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    background-color: rgb(89, 228, 170);
+    background-image: url(ImageCvNDL4.png);
+    margin-top: 20px;
+    /* padding: 10px; */
+    /* margin: 5px; */
+    padding-top: 2px;
+    margin-bottom: 20px;
+    /* padding-left: 5px; */
+    margin-right: 5px;
+    }
+
+    /*div .side{
+    border-radius:30px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    }
+  
+    /* le style donnée a ma classe main*/
+    .main {   
+    float: initial;
+    -ms-flex: 65%; /* IE10 */
+    flex: 65%;
+    background-color: rgb(89, 228, 170);
+    background-image: url(ImageCvNDL4.png);
+    margin-top: 20px;
+    /* padding: 10px; */
+    /* margin: 5px; */
+    padding-top: 2px;
+    margin-bottom: 20px;
+    /* padding-left: 5px; */
+    margin-left: 5px;
+    }
+
+    /*#dm .row {
+    margin-right: 5px;
+    }*/
+
+    .titre {
+    text-align: center;
+    color: purple; 
+    }
+
+    .titre h3 {
+      background-color: #c1a3dd;
+      width: 150px;
+    }
+    
+    .titi #h3 {
+      width: 280px;
+    }
+    fieldset {
+    background-color: #bfecdd;
+    border: 3mm ridge rgba(170, 50, 220, .6);
+    padding: 10px;
+    margin: 20px;
+    /* margin-right:10px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+    }
+    
+    /* Footer */
+    .footer {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    background-image:url(ImagesCvNDL.png);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: purple
+    }
+
+    .ff {
+    float: initial;
+    -ms-flex:auto; /* IE10 */
+    flex: auto;
+    }
+  
+    /* ici les médias querries  qui permettent d'adapter la page au different type d'ecran ici j'impose a ma div row une taille maximumun de 700pixel */
+    @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+    }
+
+    /*ici les medias queries pour la div #d30 du header à 700px*/
+    @media screen and (max-width: 700px) {
+    #d30 {   
+      flex-direction: column;
+      width: 100%
+    }
+    }
+
+    /*ici les medias queries pour la div #d70 du header à 700px*/
+    @media screen and (max-width: 700px) {
+    #d70 {
+        flex-direction: column;
+        width: 100%
+    }
+    }
+
+     /*ici les medias queries pour la div .side à 700px*/
+     @media screen and (max-width: 700px) {
+    .side {   
+      flex-direction: column; 
+      width: 100%
+    }
+    }
+
+    /* ici les medias queries pour la navbar à 400 pixel*/
+  
+    @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 30%;
+    }
+    }
+
+     /*ici les medias queries pour la div .main à 700px*/
+     @media screen and (max-width: 695px) {
+    .main {   
+      flex-direction: column; 
+      width: 100%
+    }
+    }
+
+    /*ici les medias queries pour le footer à 700px*/
+    @media screen and (max-width: 700px) {
+    .footer {   
+      flex-direction: column; 
+    }
+    }
